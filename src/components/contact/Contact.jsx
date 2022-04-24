@@ -4,6 +4,8 @@ import { ThemeContext } from "../../context"
 import Phone from "../../img/phone.png"
 import Email from '../../img/email.png'
 import Addres from '../../img/map.png'
+import Fb from '../../img/facebook.png'
+import Ins from '../../img/instagram.png'
 import emailjs from '@emailjs/browser';
 import './contact.css'
 export const Contact=()=>{
@@ -22,10 +24,11 @@ export const Contact=()=>{
     }
     return(
         <div className="c">
-         <div className="c-bg"> </div>    
+         <div className="c-bg"> </div> 
+         <div className="c-bg2"> </div>    
         <div className="c-wrapper">
             <div className="c-left">
-                <h1 className="c-title">Let discuss your project</h1>
+                <h1 className="c-title">My Contact Info</h1>
                 <div className="c-info">
                     <div className="c-info-item">
                          <img src={Phone} 
@@ -46,15 +49,27 @@ export const Contact=()=>{
                          className='c-icon'/>
                          xobis rioni sofeli chaladidi
                     </div>
+                    <div className="c-info-item">
+                         <img src={Ins} 
+                         alt="addres-logo" 
+                         className='c-icon'/>
+                        
+                          Ilia chapidze
+                   
+                       
+                    </div>
+                    <div className="c-info-item">
+                         <img src={Fb} 
+                         alt="addres-logo" 
+                         className='c-icon'/>
+                         <a href="https://www.facebook.com/ilia.chapidze.75" target="_blank" rel='noreferrer'className="c-link">
+                          Ilia chapidze
+                         </a>
+                    </div>
                 </div>
             </div>
             <div className="c-right">
-                <p className="c-desc">
-                   <b> Lorem ipsum dolor sit</b> amet consectetur adipisicing elit.
-                     Voluptatem sapiente, deserunt officia totam facilis maiores 
-                     accusantium maxime quo ad ex est quibusdam 
-                    sequi suscipit itaque neque fugit earum magni consequatur.
-                </p>
+            <h1 className="c-desc">Contact Gmail.com</h1>
 
                 <form ref={formRef} onSubmit={handlSubmit}>
                    

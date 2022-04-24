@@ -3,7 +3,17 @@
     position: relative;
 }
 .c-bg{
-    width: 20px;
+    width: 30px;
+    height: 100%;
+    border-radius:  10px;
+    background-color: #59b256;
+    position: absolute;
+}
+.c-bg2{
+    top:0;
+    right: 0%;
+    width: 30px;
+    border-radius:  10px;
     height: 100%;
     background-color: #59b256;
     position: absolute;
@@ -19,7 +29,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+  
     justify-content: center;
 }
 .c-title{
@@ -38,8 +48,14 @@
     height: 30px;
     margin-right: 20px;
 }
+.c-link{
+    text-decoration: none;
+    color: blue;
+}
 .c-desc{
-    font-weight: 200;
+    font-size: 60px;
+    width: 100%;
+  
 }
 form{
     margin-top: 20px;
@@ -69,7 +85,7 @@ button{
 }
 @media screen and (max-width:480px){
     .c{
-        height: 68vh;
+        height: 85vh;
         
     }
     .c-wrapper{
@@ -85,7 +101,14 @@ button{
         width: 100%;
     }
     .c-desc{
-        display: none;
+        font-size: 20px;
+       width: 100%;
+    }
+    .c-bg{
+        width: 20px;
+    }
+    .c-bg2{
+        width: 20px;
     }
    form{
        margin-top:0px;

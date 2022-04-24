@@ -69,6 +69,7 @@
     position: absolute;
     top:0;
     right: 0;
+    
 
 }
 @media screen and (max-width:480px){
@@ -81,7 +82,7 @@
     }
     .i-name{
         align-items: center;
-        font-size: 60pxpx;
+        font-size: 40px;
         margin-top: 15px;
     }
     .i-left{

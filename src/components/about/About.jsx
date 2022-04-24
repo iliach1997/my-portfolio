@@ -1,5 +1,6 @@
 import './about.css'
 import Me from '../../img/my.jpg'
+import Aca from '../../img/javascript 108+ (1).jpg'
 export const About=()=>{
     return(
         <div className='a'>
@@ -16,14 +17,14 @@ export const About=()=>{
                 dsdsds ds ds d sd s ds d sd sd  d
             </p>
             <p className='a-desc animate__animated animate__zoomIn'>
-            გამარჯობა როგორც უკვე იცით მე მქვია ილია დავიბადე 1997
+                  გამარჯობა როგორც უკვე იცით მე მქვია ილია დავიბადე 1997
                  წელის 2 მარტს დავამთავრე ხობის რაიონი სოფელი 
                  ჭალადიდის სკოლა ჩავაბარე თბილისის სახელმწიფო
                  უნივერსიტეტის ფიზიკის ფაკულტეტზე ვმუშაობ 
                  მენეჯერის პოზიციაზე სასტუმრო აბასადორი გოდერძიზე
             </p>
-            <div className="a-award">
-                <img src="" alt="" className='a-award-img ' />
+            <div className="a-aca">
+                <img src={Aca} alt="" className='a-aca-img ' />
             </div>
         </div>
        </div>
