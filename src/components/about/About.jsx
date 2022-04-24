@@ -15,7 +15,7 @@ export const About=()=>{
                 It is a estable dsdsfd sd sd s ds d sd sd sd s ds ds d sd s ds ds d sd 
                 dsdsds ds ds d sd s ds d sd sd  d
             </p>
-            <p className='a-desc'>
+            <p className='a-desc animate__animated animate__zoomIn'>
             გამარჯობა როგორც უკვე იცით მე მქვია ილია დავიბადე 1997
                  წელის 2 მარტს დავამთავრე ხობის რაიონი სოფელი 
                  ჭალადიდის სკოლა ჩავაბარე თბილისის სახელმწიფო
