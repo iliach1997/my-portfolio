@@ -5,7 +5,7 @@ import Phone from "../../img/phone.png"
 import Email from '../../img/email.png'
 import Addres from '../../img/map.png'
 import Fb from '../../img/facebook.png'
-import Ins from '../../img/instagram.png'
+import Ins from '../../img/github.png'
 import emailjs from '@emailjs/browser';
 import './contact.css'
 export const Contact=()=>{
@@ -54,7 +54,7 @@ export const Contact=()=>{
                          alt="addres-logo" 
                          className='c-icon'/>
                         
-                          Ilia chapidze
+                        iliach1997
                    
                        
                     </div>

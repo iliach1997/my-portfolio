@@ -21,8 +21,10 @@ const Intro=()=>{
                     </div>  
                 <p className="i-desc animate__animated animate__zoomIn">
                     
-                გამარჯობა როგორც უკვე იცით მე მქვია ილია დავიბადე 1997
-                 წელის 2 მარტს დავამთავრე ხობის რაიონი სოფელი ჭალადიდის სკოლა ჩავაბარე თბილისის სახელმწიფო უნივერსიტეტის ფიზიკის ფაკულტეტზე ვმუშაობ მენეჯერის პოზიციაზე სასტუმრო აბასადორი გოდერძიზე
+               Hello. My name is Ilia. I am studying in the Tbilisi State University at 
+                the faculty of physics. I am interested in varius programming languages
+                 (including Javascript and React.js). I am a perpetual self-learner and
+                  can work on the varius projects at the same time.
                     
                     </p>    
                 

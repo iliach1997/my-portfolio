@@ -36,15 +36,15 @@
     object-fit: cover;
 }
 .a-aca-img{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 10px;
 }
 .a-title{
-    font-weight: 400;
+    font-size: 60px;
 }
 .a-desc{
-    font-weight: 300;
+    font-size: 50px;
 }
 @media screen and (max-width:480px){
     .a{
@@ -52,6 +52,13 @@
         text-align: center;
         margin-top: 50px;
 
+    }
+    .a-aca-img{
+        width: 200px;
+        height: 200px;
+    }
+    .a-desc{
+        font-size: 20px;
     }
     .a-left{
         width: 100%;
