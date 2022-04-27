@@ -8,8 +8,8 @@ const Intro=()=>{
        <div className="i">
         <div className="i-left">
             <div className="i-left-wrapper">
-                <h2 className='i-intro animate__animated animate__backInLeft'>Hello, My name is</h2>
-                <h1 className="i-name animate__animated animate__backInRight">Ilia Chapidze</h1>
+                <h2 className='i-intro animate__animated animate__backInLeft li'>Hello, My name is</h2>
+                <h1 className="i-name animate__animated animate__backInRight li">Ilia Chapidze</h1>
                 <div className="i-title">
                     <div className="i-title-wrapper">
                       <div className="i-title-item"><i class="fa-brands fa-html5"></i>HTML 5</div>
@@ -19,7 +19,7 @@ const Intro=()=>{
                       <div className="i-title-item">WEB DEVELOPER</div>
                     </div>
                     </div>  
-                <p className="i-desc animate__animated animate__zoomIn">
+                <p className="i-desc animate__animated animate__zoomIn li">
                     
                Hello. My name is Ilia. I am studying in the Tbilisi State University at 
                 the faculty of physics. I am interested in varius programming languages

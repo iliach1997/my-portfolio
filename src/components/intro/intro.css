@@ -22,6 +22,19 @@
 
     
 }
+.li{
+
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+  
+}
+
+.li:hover{
+    color: red;
+ 
+}
 .i-intro{
     font-size: 40px;
     font-weight:bold;
