@@ -27,7 +27,7 @@ export const Intro=()=>{
                   can work on the varius projects at the same time.
                     
                     </p>    
-                
+                {/* ilia */}
              </div>
               <svg>
 
