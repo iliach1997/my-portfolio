@@ -5,7 +5,7 @@ import Me from '../../img/my.jpg'
 const Intro=()=>{
     return (
         
-       <div className="i">
+       <div className="i" id='intro'>
         <div className="i-left">
             <div className="i-left-wrapper">
                 <h2 className='i-intro animate__animated animate__backInLeft li'>Hello, My name is</h2>

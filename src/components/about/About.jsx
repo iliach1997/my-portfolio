@@ -3,7 +3,7 @@ import Me from '../../img/my.jpg'
 import Aca from '../../img/javascript 108+ (1).jpg'
 export const About=()=>{
     return(
-        <div className='a'>
+        <div className='a' id='about'>
         <div className="a-left">
        <div className="a-card bg"></div>
        <div className="a-card">
@@ -11,7 +11,7 @@ export const About=()=>{
        </div>
        </div>
         <div className="a-right">
-            <h1 className='a-title'>About Me</h1>
+            <h1 className='a-title'>Education</h1>
             <p className='a-sub'>
             
             </p>

@@ -1,5 +1,5 @@
 .c{
-    height: 85vh;
+    height: 95vh;
     position: relative;
 }
 .c-bg{
@@ -35,6 +35,10 @@
 .c-title{
     font-size: 60px;
     width: 80%;
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
 }
 .c-info-item{
     display: flex;
@@ -42,6 +46,19 @@
     margin: 50px 0px;
     font-weight: 500;
     width: 70%;
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
+.c-info-item:hover{
+    color:#59b256;
+}
+.c-title:hover{
+    color: #59b256;
+}
+.c-desc:hover{
+    color: #59b256; 
 }
 .c-icon{
     width: 30px;
@@ -55,6 +72,10 @@
 .c-desc{
     font-size: 60px;
     width: 100%;
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
   
 }
 form{

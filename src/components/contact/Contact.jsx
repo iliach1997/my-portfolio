@@ -23,7 +23,7 @@ export const Contact=()=>{
 
     }
     return(
-        <div className="c">
+        <div className="c" id="contact">
          <div className="c-bg"> </div> 
          <div className="c-bg2"> </div>    
         <div className="c-wrapper">
@@ -47,16 +47,15 @@ export const Contact=()=>{
                          <img src={Addres} 
                          alt="addres-logo" 
                          className='c-icon'/>
-                         xobis rioni sofeli chaladidi
+                         xobis rioni sofeli chaladidi,
+                         tbilisi isani andwuladze 17
                     </div>
                     <div className="c-info-item">
                          <img src={Ins} 
                          alt="addres-logo" 
                          className='c-icon'/>
-                        
-                        iliach1997
-                   
-                       
+                        <a href="https://github.com/iliach1997" target="_blank" rel='noreferrer'className="c-link">  
+                        iliach1997</a> 
                     </div>
                     <div className="c-info-item">
                          <img src={Fb} 
