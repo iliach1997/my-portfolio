@@ -1,5 +1,6 @@
 
 import { Link } from 'react-scroll'
+// import {AiOutlineHome}from 'react-icons/cg'
 import 'animate.css'
 import './navbar.css'
 export const NavLinks=({isMobile,closeMenu})=>{

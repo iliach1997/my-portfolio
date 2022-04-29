@@ -2,7 +2,7 @@ import './intro.css'
 import 'animate.css'
 import Me from '../../img/my.jpg'
 
-const Intro=()=>{
+export const Intro=()=>{
     return (
         
        <div className="i" id='intro'>
@@ -23,7 +23,7 @@ const Intro=()=>{
                     
                Hello. My name is Ilia. I am studying in the Tbilisi State University at 
                 the faculty of physics. I am interested in varius programming languages
-                 (including Javascript and React.js). I am a perpetual self-learner and
+               and framework (including Javascript,  React.js). I am a perpetual self-learner and
                   can work on the varius projects at the same time.
                     
                     </p>    
@@ -41,4 +41,3 @@ const Intro=()=>{
     )
 }
 
-export default Intro;

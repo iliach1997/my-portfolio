@@ -9,8 +9,12 @@
 .p-browser{
     height: 20px;
     background-color:rgb(243,242,242) ;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: sticky;
     z-index: 5;
 
@@ -24,10 +28,14 @@
 }
 .p-img{
     width: 100%;
+    -webkit-transition: all 10s ease;
+    -o-transition: all 10s ease;
     transition: all 10s ease;
 }
 .p:hover .p-img{
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
 }
 @media screen and (max-width:480px){
  .p{

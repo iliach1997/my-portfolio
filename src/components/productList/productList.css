@@ -1,8 +1,15 @@
 .pl{
     padding: 50px 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;    
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;
     text-align: center;
 }
 .pl-texts{
@@ -18,9 +25,14 @@ width: 65%;
 }
 .pl-list{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 @media screen and (max-width:480px){
     .pl{
