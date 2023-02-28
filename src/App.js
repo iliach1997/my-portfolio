@@ -1,6 +1,6 @@
 
 import { useContext } from 'react';
-import {Intro} from './components/intro';
+import {Intro} from './components/intro/intro.jsx';
 import { About } from './components/about';
 import {ProductList} from './components/productList'
 import { Toggle } from './components/toggle';
