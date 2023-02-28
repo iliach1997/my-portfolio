@@ -1,6 +1,7 @@
 import './about.css'
 import Me from '../../img/my.jpg'
 import Aca from '../../img/javascript 108+ (1).jpg'
+import sertificat from '../../img/react.jpg'
 export const About=()=>{
     return(
         <div className='a' id='about'>
@@ -20,6 +21,7 @@ export const About=()=>{
             </p>
             <div className="a-aca">
                 <img src={Aca} alt="" className='a-aca-img ' />
+                <img src={sertificat} alt="" className='a-aca-img ' />
             </div>
         </div>
        </div>
